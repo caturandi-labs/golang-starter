@@ -12,6 +12,7 @@
 
 - Register
 - Login JWT Token
+- `me` endpoint (protected routes)
 
 ## Structures
 
