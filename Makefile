@@ -2,7 +2,7 @@ run:
 	go run main.go
 schema:
 	@read -p "Enter Schema Name: " name; \
-		go run entgo.io/ent/cmd/ent new $$name
+		go run -mod=mod entgo.io/ent/cmd/ent new $$name
 generate:
 	go generate ./ent
 mac:
